@@ -7,9 +7,9 @@ void a(string num)
 {
     if(num[0] == num[4] || num[1] == num[3])
     {
-        Console.WriteLine($"Это число: {num} - Полиндром.");
+        Console.WriteLine($"Это число: {num} - Палиндром.");
     }
-    else Console.WriteLine($"Это число: {num} - Не полиндром.");
+    else Console.WriteLine($"Это число: {num} - Не палиндром.");
 }
 
 if(num!.Length == 5)
